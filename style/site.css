@@ -1,0 +1,265 @@
+body {
+	font-family: sans-serif; 
+	font-size: 0.9em;
+}
+.clearfix{
+	clear: both;
+}
+/*HEADER*/
+#header {
+	width:95%;
+	height: 150px;
+	margin: 0 auto;
+	padding: 0 2%;
+	border-top:#FFFFFF 4px solid;
+}
+#header .company{
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+	height: 120px;}
+.company h1{
+	font-size: 2.5em; font-weight: 500;
+}
+#header .search-container{
+	width: 50%;
+	float: right;
+	padding-top: 40px;
+}
+#header .search-container form{
+	text-align: right;
+	width: 100%;
+}
+.search-container input[type="text"]{
+	width: 50%;
+	height: 30px;
+	border: #efefef 1px inset;
+	font-style: italic;
+}
+.search-container input[type="button"]{
+	background-color: #7d5c87;
+	color:#FFFFFF
+	width:100px;
+	height: 31px;
+	border: none;
+}
+#header .company img{
+	float: left;
+	margin-top: -2%;
+	width: 18%;
+}
+/*menu*/
+#menuContainer {
+	width: 95%;
+	height: 50px;
+	margin: 0 auto;
+}
+.navbar {
+	overflow: hidden;
+	background-color:#FFFFFF
+}
+.navbar a{
+	float: left;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 2%;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+.navbar a.active {
+	background-color:#7B7979
+	color:#000000
+}
+/*about*/
+#about{
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px 2%;}
+#about .aLeft{
+	width: 60%;
+	float: left;
+	margin-right: 2%;
+}
+#about .aLeft img{
+	width:60%;
+	float: left;
+	margin-right: 2%;
+}
+#about .aLeft img{
+	width: 100%;
+}
+#about .aRight{
+	width: 38%;
+	float: right;
+}
+#about .k1{
+	width: 48%;
+	float: left;
+	padding: 0 2% 10px 0;
+}
+#about .k2{
+	width: 48%;
+	float: left;
+	padding: 0 0px 10px 2%;
+}
+#about .k3{
+	width: 48%;
+	float: left;
+	padding: 10px 0px 0px 2%;
+}
+#about .k4{
+	width: 48%;
+	float: left;
+	padding: 10px 0px 0px 2%;
+}
+#about .k1 img, #about .k2 img, #about .k3 img, #about .k4 img{
+	width: 100%;
+}
+/*Product*/
+#product{
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px 2%;
+	background-color:#FFFFFF
+}
+#product .frame{
+	width: 100%;
+}
+#product .frame .p1{
+	width: 28%; 
+	text-align: center;
+	padding: 2%;
+	margin-right: 3%;
+	background-color: #FFFFFF;
+	float: left;
+}
+#product .frame .p2{
+	width: 26%; 
+	text-align: center;
+	padding: 2%;
+	margin-right: 3%;
+	background-color: #FFFFFF;
+	float: left;
+}
+#product .frame .p3{
+	width: 26%; 
+	text-align: center;
+	padding: 2%;
+	background-color: #FFFFFF;
+	float: left;
+}
+#product .frame img{
+	width: 108%;
+	margin-left: -4%;
+	margin-top: -4%
+}
+p.subcontent{
+	line-height: 1.5;
+	color:#000000
+}
+/*FEEDBACK*/
+#feedback{
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px 2%;
+}
+.fd1, .fd2{
+	width: 50%; 
+	float: left;
+}
+#feedback .hinh-kh{
+	width: 35%;
+	float: left;
+}
+#feedback .hinh-kh img{
+	width: 100%;
+}
+#feedback .camnhan{
+	float: left;
+	width: 55%;
+	padding: 0px 5%;
+}
+#feedback .readmore{
+	width: 100px;
+	height: 25px;
+	background-color: #7d5c87;
+	padding: 5px;
+}
+#feedback a{
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 2; 
+	width: 100px;
+}
+/*information*/
+#information{
+	width: 95%;
+	margin: 0 auto;
+	background-color: #f0f0f0;
+	padding: 40px 2%;
+	border-top: 10px solid #e6e6e6;
+}
+#information a{
+	color: #7d5c87;
+	text-decoration: none;
+}
+#information .infor1{
+	width: 22%;
+	float: left;
+}
+#information .infor1 img{
+	width: 100%;
+}
+#information .infor2, #information .infor3, #information .infor4{
+	width: 22%;
+	float: left;
+	margin-left: 3%;
+}
+#information form input[type="password"]{
+	width: 65%;
+	height: 30px;
+	border: none;
+}
+#information form input[type="button"]{
+	width: 70px;
+	height: 30px;
+	background-color: #7d5c87; color: #FFFFFF;
+	border: none;
+}
+#information .infor4 input, textarea{
+	width: 100%;
+}
+#information h2{
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+.infor3 h1{
+	font-size: 100%;
+	color: #7d5c87;}
+#information .socialname{
+	margin: 0 auto;
+	padding: 50px 3%;
+	width: 30%;
+	margin-top: -10%;
+}
+.socialnet div{
+	float: left;
+}
+/*Footer*/
+#footer{
+	width: 95%;
+	height: 60px;
+	margin: 0 auto;
+	padding: 20px 2%;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#footer .copy{
+	float: left;
+}
+#footer .author{
+	float: right;
+}
+		
+	
